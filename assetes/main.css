@@ -1,0 +1,212 @@
+:root {
+    --font01:'Nunito',sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.contact-us {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-color: #323A45;
+}
+
+.contact-us h1 {
+    text-align: center;
+    font-family: var(--font01);
+    color: #fff;
+    font-size: 2.4em;
+    font-weight: 800;
+}
+
+
+.contact-us h6 {
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 20px;
+    font-family: var(--font01);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 300;
+    width: 330px;
+}
+
+.shapes {
+    position: absolute;
+}
+
+#red {
+    position: absolute;
+    width: 40px;
+    top: 20px;
+    left: 20%;
+}
+
+#prpl {
+    position: absolute;
+    left: 85%;
+    top: 190px;
+}
+
+#ylw {
+    position: absolute;
+    width: 20px;
+    top: 280px;
+    left: 12%;
+}
+
+
+footer {
+    width:100%;
+    min-height:270px ;
+}
+
+form {
+    position: absolute;
+    left: 440px;
+    right: 420px;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    min-height:400px ;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    box-shadow: 30px 20px 30px 0 rgba(0, 0, 0, 0.116), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name {
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 300px;
+    height: 35px;
+    border: 2px solid #DADADA;
+    border-radius: 5px;
+}
+
+#nm {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #131B42;
+    font-family: var(--font01);
+    font-weight:700;
+}
+
+
+#email {
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 300px;
+    height: 35px;
+    border: 2px solid #dadadaec;
+    border-radius: 5px;
+}
+
+#eml {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #131B42;
+    font-family: var(--font01);
+    font-weight:700;
+}
+
+
+#mesg {
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 300px;
+    height: 105px;
+    border: 2px solid #DADADA;
+    border-radius: 5px;
+}
+
+#msg {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #131B42;
+    font-family: var(--font01);
+    font-weight:700;
+}
+
+#btn {
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 110px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #323A45;
+    border: 2px solid #323A45;
+    border-radius: 5px;
+    font-family: var(--font01);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+}
+
+
+
+.details {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+} 
+
+
+.usthb h4 {
+    font-family: var(--font01);
+    color: #323B45;
+    margin-left: 60px;
+    font-size: 1.5em;
+    margin-top: -32px;
+}
+
+.usthb img {
+    width: 30px;
+    padding-top: 20px;
+}
+
+
+.flw h2 {
+    font-family: var(--font01);
+    color: #323B45;
+    margin-left: 18px;
+}
+
+.flw img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.copy-w{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 2px solid #C8C8C8 ;
+    padding-top: 25px;
+}
+
+.copy-w h3 {
+    font-family: var(--font01);
+    color: #C8C8C8;
+}
+
+.copy-w #txt {
+    color: #313A45;
+}
+
